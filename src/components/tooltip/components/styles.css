@@ -1,0 +1,40 @@
+.tooltip-container {
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+    z-index: 999;
+}
+
+.tooltip-right {
+    right: -10px;
+    top: 50%;
+    transform: translate(100%, -50%);
+}
+
+.tooltip-left {
+    left: -10px;
+    top: 50%;
+    transform: translate(-100%, -50%);
+}
+
+.tooltip-top {
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.tooltip-bottom {
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+
+.MuiCard-root {
+    overflow: visible !important;
+}
