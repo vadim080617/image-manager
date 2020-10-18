@@ -14,7 +14,7 @@ import { DashboardLayout } from '../../components/layouts/components/DashboardLa
 
 export function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <DashboardLayout>
         <Switch>
           <Route exact path="/images">
